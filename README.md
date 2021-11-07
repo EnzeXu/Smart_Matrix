@@ -33,9 +33,9 @@ This document is the additional assignment work for CS648 students
 A `matrix` has m×n `cell`s in list format, and each cell(a string, e.g., `3*x12-y1^2+3`) includes several `part`s (e.g., `3*x12^2*y22`, `-y1^2`, `+3`).
 
 A `part` has a sig, a coefficient and a unit:
-(1) sig: a char, `+` or `-`. Default value is `+`.
-(2) coefficient: a float, e.g., `1*`, `3.2001*`. Default value is `1`. Not that if coefficient is not default, here must be a `*` before the unit.
-(3) unit: hard to explain, just give examples: `x32^2*y1*x2`, `y1*y1^2*y1^3`
+1. sig: a char, `+` or `-`. Default value is `+`.
+2. coefficient: a float, e.g., `1*`, `3.2001*`. Default value is `1`. Not that if coefficient is not default, here must be a `*` before the unit.
+3. unit: hard to explain, just give examples: `x32^2*y1*x2`, `y1*y1^2*y1^3`
 
 There can be spaces in the input format, though they will just be ignored after all.
 
