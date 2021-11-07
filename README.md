@@ -43,7 +43,11 @@ There can be spaces in the input format, though they will just be ignored after 
 
 # 3 Demo
 ```python
+# demo.py
+# Created by ENZE XU on 2021/11/6.
+
 from smart_matrix import SmartMatrix, times_smart_matrix
+
 sm1 = SmartMatrix([["x1+x2+x2", "x2+x3", "x3+x1"], ["1*x1", "2*x2", "3*x3"]])
 sm2 = SmartMatrix([["1", "y1^1"], ["2", "y2^2"], ["3", "y3^3"]])
 sm3 = times_smart_matrix(sm1, sm2)
