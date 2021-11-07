@@ -1,7 +1,7 @@
 
 Smart Matrix
 ===========================
-This document is the additional assignment work for CS648 students
+This document is the description of work for Smart Matrix
 
 ****
  
